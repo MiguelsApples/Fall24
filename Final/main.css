@@ -36,6 +36,7 @@ letter-spacing: 1px;
 	font-size: 46px;
 	margin-bottom: 0px;
 	font-family: "Courier New;", serif;
+	color: white;
 
 }
 
@@ -47,30 +48,54 @@ letter-spacing: 1px;
 	font-family:"Times New Roman", serif;
 	font-size: 20px;
 	align-content: center;
-	color: white;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
 
 }
 
-.photo{
-	max-width: 65%;
-	align-content: center;
+.photo {
+	max-width: 80%;
+	margin-left: auto;
+  margin-right: auto;
 	
 }
 
-.whitetext h1 {
-  color: white;
+.d-flex {
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    gap: 15px;
+    justify-content: center; 
+    flex-wrap: nowrap; 
+    margin-left: 30%;
+	margin-right: 30%;
+}
+
+.blacktext h1 {
+  color: black;
 }
 
 .whitetext h5 {
-  color: white;
+  color: black;
 }
 
 
 .whitetext story-copy {
-  color: white;
+  color: black;
 }
  
 .whitetext caption {
-  color: white;
+  color: black;
 }
  
+ .d-flex2 {
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    gap: 20px;
+    justify-content: center; 
+    flex-wrap: nowrap; 
+    margin-left: 20%;
+	margin-right: 20%;
+}
